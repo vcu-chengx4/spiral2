@@ -30,7 +30,7 @@ jobs:
         pip install  .
     - name: Analysing the code with black
       run: |
-        python -m black --check --diff .
+        python -m black --diff .
     - name: Test with pytest
       run: |
         pytest
